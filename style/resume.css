@@ -5,8 +5,7 @@
 
     v0.9: 5/28/09
 
-    design and code by: thingsthatarebrown.com 
-                        (matt brown)
+    design and code by: thingsthatarebrown.com (matt brown)
 ---------------------------------------------------------------------------------
 */
 
@@ -31,7 +30,7 @@ body { font-family: Georgia; color: #444; }
 #ft p { margin-bottom: 0; text-align: center;   }
 
 /* //-- core typography and style -- */
-#hd h1 { font-size: 48px; text-transform: uppercase; letter-spacing: 3px; }
+#hd h1 { font-size: 43px; text-transform: uppercase; letter-spacing: 3px; }
 h2 { font-size: 152% }
 h3, h4 { font-size: 122%; }
 h1, h2, h3, h4 { color: #333; }
@@ -70,5 +69,46 @@ a#pdf:hover { background: #222; }
 /* --// override to force 1/8th width grids -- */
 .yui-gf .yui-u{width:80.2%;}
 .yui-gf div.first{width:12.3%;}
+
+/** personalisations */
+.pro-tech {
+    font-style: italic;
+}
+
+
+/* -- Latex -- */
+
+.latex sub {
+    vertical-align: -0.1ex;
+    margin-left: -0.1667em;
+    margin-right: -0.025em;
+}
+
+.latex sub, .latex sup {
+    font-size: 0.9em;
+    text-transform:uppercase;
+
+}
+.latex sup {
+    font-size: 0.85em;
+    vertical-align: -0.2em;
+    margin-left: -0.26em;
+    margin-right: -0.05em;
+}
+
+/* -- Translation -- */
+
+.translation{
+    position:absolute;
+    top:0;
+    right:0;
+    height: 20px;
+}
+
+/* Flag Icons */
+.flag-icon {
+    width: 10px;
+    height: 10px;
+}
 
 
