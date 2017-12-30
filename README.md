@@ -1,1 +1,1 @@
-## Resume Using [git pages](https://pages.github.com/)
+## Resume PDF version using latex
