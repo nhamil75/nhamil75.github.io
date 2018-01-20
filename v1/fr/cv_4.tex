@@ -23,7 +23,8 @@
 \documentclass{resume} % Use the custom resume.cls style
 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
-
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 \name{Nicolas Hamilakis} % Your name
 \address{nhamilakis.github.io} % Your secondary addess (optional)
 \address{(+33)~$\cdot$~06 21 60 20 96 \\ nick.hamilakis562@gmail.com} % Your phone number and email
@@ -34,24 +35,24 @@
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Education}
+\begin{rSection}{Formations}
 	
-\begin{rSubsection}{ University Paris Diderot}{2014-2018}{}{Paris 7}
-	\item Master in Computer Science (Languages \& Programming)
+\begin{rSubsection}{ Université Paris Diderot}{2014-2018}{}{Paris 7}
+	\item Master Informatique (Languages \& Programmation)
 \end{rSubsection}
 %----------------------------------------------------------------------------------------
-\begin{rSubsection}{ University Pierre \& Marie Curie }{2010-2014}{}{Paris 6}
+\begin{rSubsection}{ Université Pierre \& Marie Curie }{2010-2014}{}{Paris 6}
 	\item Licences Sciences et Technologie mention Informatique.
 \end{rSubsection}
 %----------------------------------------------------------------------------------------
-\begin{rSubsection}{ University Panthéon Sorbonne}{2009-2010}{}{Paris 1}
+\begin{rSubsection}{ Université Panthéon Sorbonne}{2009-2010}{}{Paris 1}
 	\item Cours de civilisation française
 \end{rSubsection}
 
 %----------------------------------------------------------------------------------------
-\begin{rSubsection}{ 1st High school of Ierapetra }{2009}{}{Crete}
-	\item High school diploma in sciences \& technology
-	\item Math,Physics, Computer Sciences and Finance
+\begin{rSubsection}{ 1er Lycée de Ierapetra }{2009}{}{Crete}
+	\item Baccalauréat Science \& Technologie
+	\item Math,Physique, Informatique et Finance
 \end{rSubsection}
 
 \end{rSection}
@@ -60,27 +61,27 @@
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Experience}
+\begin{rSection}{Expérience Professionnel}
 
-\begin{rSubsection}{SAS Majoris-Conseil, project MylocalPhone}{August 2017 - Present}{IT Maintenance \& Android development}{Paris}
-\item Technical maintenance,development,testing and on site installation of Android smartphones in hotels.
+\begin{rSubsection}{SAS Majoris-Conseil, projet MylocalPhone}{Août 2017 - }{IT Maintenance \& Android development (CDI)}{Paris}
+\item Maintenance technique,développement,test et installation de smartphones Android.
 \end{rSubsection}
 
 %------------------------------------------------
 
-\begin{rSubsection}{UGC SA, Informatics R\&D department }{March 2016 - July 2016}{Internship}{Paris}
-\item Developing an API \& an intranet website in ASP.NET/C\# and AngularJS
+\begin{rSubsection}{UGC SA, Informatique département R\&D  }{March 2016 - July 2016}{Stage}{Paris}
+\item Développement d'une API et d'un site intranet en ASP.NET/C\# et AngularJS
 \end{rSubsection}
 
 %------------------------------------------------
 
 \begin{rSubsection}{C.R.O.U.S de Paris}{January 2008 - April 2010}{}{Paris}
-\item Host in a student residence.
+\item Concierge et étudiant référent
 \end{rSubsection}
 
 %------------------------------------------------
 
-\begin{rSubsection}{KFC France}{2013 - 2014}{Employee}{Paris}
+\begin{rSubsection}{KFC France}{2013 - 2014}{Employée}{Paris}
 	\item
 \end{rSubsection}
 \end{rSection}
@@ -89,10 +90,10 @@
 %	TECHNICAL STRENGTHS SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Technical Skills}
+\begin{rSection}{Compétences Technique}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Computer Languages & Java, C/C++, OCaml, Scala, Prolog \\
+Langue de Programmation & Java, C/C++, OCaml, Scala, Prolog \\
 Script \& Tools & Python, Perl, Bash/Linux, SQL (Postgres, MySQL), Git \\
 Web & Html,JavaScript (JQuery, AngularJS), CSS, PHP,  LaTex \\
 \end{tabular}
@@ -103,53 +104,53 @@ Web & Html,JavaScript (JQuery, AngularJS), CSS, PHP,  LaTex \\
 %	EXAMPLE SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Projects}
+\begin{rSection}{Projets Informatique}
 
 \begin{rSubsection}{Elysium}{Android/Java - Cordova,html,css,JavaScript(AngularJS)}{Android App }{}
-	\item Performed various maintenance and development tasks in an Android launcher application targeted for custom use in devices rented to hotels. 
+	\item Effectuer plusieurs tâches de maintenance sur une application launcher en Android (Java). Développement d'un plugin cordova pour effectue plusieurs tâche non accessible en Javascript.
 \end{rSubsection}
 
 
 \begin{rSubsection}{File Manager}{C\#/ASP.NET MVC - html,css,JavaScript(AngularJS)}{Intranet Application \& API}{}
-	\item Creating an API that indexes and manages a large list of files accross various servers in a Windows Environment. Creating an intranet website capable of searching tagging and managing the file system.
+	\item Création d'une API et d'un site Intranet pour l'indexage et gestion de fichier sur plusieurs serveurs différents.Gestion de droit, recherche avec plusieurs critères
 \end{rSubsection}
 
 \begin{rSubsection}{Linux Distrubution}{C/Makefiles/Linux Configuration}{Linux Kernel Compilation and Virtualisation}{}
-	\item Compile, package and virtualise(qemu) a minimal version of the linux kernel. 
+	\item Compiler, package and virtualiser(qemu) une version minimale du noyau Linux. 
 \end{rSubsection}
 
 \begin{rSubsection}{Hopix}{Ocaml/Yacc}{Compiler}{}
-	\item Implementing an Extension to an existing compiler written in Ocaml for a made up language called Hopix. Using Menhir an LR(1) Ocaml parser generator.
+	\item Implémentation d'une extension à un compilateur existant pour incorporer un nouveau langage (appeler Hopix). Utilisation de Menhir un générateur LR(1) de parseur pour Ocaml.
 \end{rSubsection}
 
-\begin{rSubsection}{Driving Simulation}{SCADE}{Scade Synchronous Application}{}
-	\item Creating a driver that can follow an itinerary within a Scade implementation (Synchronous Real-Time Programming).
+\begin{rSubsection}{Simulation de voiture}{SCADE}{Scade Synchronous Application}{}
+	\item Création d'un conducteur intelligent capable parcourir plusieurs chemins sur un circuit donnée. Gestion de capteur d'information (Capteur de couleur, sonar, etc..).
 \end{rSubsection}
 
 \begin{rSubsection}{UML Editor}{C++/Qt}{GUI PC Application}{}
-	\item Creating a gui interface to build UML diagrams \& implementing a code generator.
+	\item Création d'une application permettant de crée plusieurs schéma UML et de généré du code en différent langage de programmation (C++, Java..).
 \end{rSubsection}
 
 \begin{rSubsection}{Lego MindStorm}{Java/Linux}{University project }{}
-	\item Building and programming a lego mindstorm project to participate in a competition. Follow a line on the ground, locate an object and collect it. Using a java implementation of the lego OS.
+	\item Construction et programmation d'une voiture intelligente en utilisant le module Lego MindStorm et l'extension java leJOS.
 \end{rSubsection}
 
 
 \begin{rSubsection}{Flood-it}{C/GTK}{Mini Game for PC}{}
-	\item Implementation of the Flood-it game in C. Creating \& implementing various solving algorithms. 	
+	\item Implémentation du jeu d'inondation (Flood-it), et développement de plusieurs algorithme de joueurs intelligent.
 \end{rSubsection}
 
-\begin{rSubsection}{Racing Cars Simulation}{Java}{Algorithm/Problem Solving}{}
-	\item Creating a smart driver that can complete a circuit in a given format. Elements of algorithmic (Djikstra shortest path algorithm \& finding the most optimized path). 
+\begin{rSubsection}{Simulation de voiture de Course}{Java}{Algorithm/Problem Solving}{}
+	\item Création d'un conducteur intelligent capable de parcourir de façon optimale un circuit de voiture (Djikstra plus court chemin).
 \end{rSubsection}
 
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
-\begin{rSection}{Various}
+\begin{rSection}{Divers}
 
 	\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-		Languages & Greek | French | English  \\
+		Langue & Grecque | Français | Anglais  \\
 	\end{tabular}
 	
 \end{rSection}
